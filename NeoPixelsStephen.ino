@@ -20,6 +20,7 @@ Adafruit_NeoPixel pixels = Adafruit_NeoPixel(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ80
 
 //int delayval = 250; // delay for half a second
 int delayval = random(20000);
+// each variable is used to set the rgb colours to a random colour and brightness
 int a = random(250);
 int b = random(250);
 int c = random(250);
